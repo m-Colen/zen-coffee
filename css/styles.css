@@ -118,7 +118,7 @@ nav li {
   height: 100vh;
   width: 50%;
   background-color: #0d0d0d;
-  background-image: url("images/hero-img.avif");
+  background-image: url("https://raw.githubusercontent.com/m-Colen/zen-coffee/main/images/hero-img.avif");
   background-repeat: no-repeat;
   background-blend-mode:screen;
   background-position: left 50%;
