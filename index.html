@@ -90,8 +90,7 @@
     </section>
     
     <section id="contact">
-      <h2>Contact Us</h2>
-      <h3>Earn a free coffee by signing up</h3>
+      <h4>Earn a free coffee by signing up</h4>
       <form method="POST" action="#">
         <fieldset>
           <legend>Contact Us</legend>
@@ -110,15 +109,15 @@
             </li>
             <li>
               <label for="message">Message</label>
-              <textarea name="message" id="message" cols="30" rows="10"></textarea>
+              <textarea name="message" id="message" cols="10" rows="5"></textarea>
             </li>
-            <li>
+            <li id="newsletter">
               <label for="newsletter-sign-up">Sign up for newsletter</label>
               <input type="checkbox" id="newsletter-sign-up" name="newsletter-sign-up">
             </li>
-            <li>
+            <li id="submit-form">
               <label for="submit"></label>
-              <input class="button" type="submit" value="Send">
+              <input id="submit" class="submit-button" type="submit" value="Send">
             </li>
           </ul>                 
         </fieldset>
@@ -128,7 +127,8 @@
   </main>
   
   <footer>
-    
+    <i class="fa-solid fa-copyright"></i>
+    <p>Zen Coffee</p>
   </footer>
   
 <script src="js/script.js"></script>
