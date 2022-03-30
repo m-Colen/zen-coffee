@@ -8,6 +8,8 @@
   <title>Zen Coffee</title>
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/972df6eb1d.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -18,7 +20,18 @@
       <div id="nav-logo"><a href="index.html">Zen Coffee</a></div>
       <div id="nav-links">
         <ul>
-          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+      <div id="hamburger-menu">
+        <div id="top-bun" class="hamburger"></div>
+        <div class="hamburger"></div>
+        <div id="bottom-bun" class="hamburger"></div>
+      </div>
+      <div id="nav-links-mobile" class="inactive">
+        <ul>
+          <li><a href="#contact">Contact</a></li>
           <li><a href="#about">About</a></li>
         </ul>
       </div>
@@ -30,12 +43,93 @@
         <div id="hero-cta-container">
           <h1>Every day is a Zen day</h1>
           <p>Locally sourced, reasonably priced</p>
-          <a class="button" href="#">Get a free coffee</a>
+          <a class="button" href="#contact">Get a free coffee</a>
         </div>
       </div>
     </section>
 
   </header>
+  
+  <main>
+    
+    <section id="about">
+      <div id="features-banner">
+        <ul>
+          <li id="served-fresh">
+            <i class="fa-solid fa-mug-hot fa-2x"></i>
+            <p>Served fresh every time</p>
+          </li>
+          <li id="locally-sourced">
+            <i class="fa-solid fa-seedling fa-2x"></i>
+            <p>Locally sourced</p>
+          </li>
+          <li id="served-fresh">
+            <i class="fa-solid fa-leaf fa-2x"></i>
+            <p>Echo freindly packaging</p>
+          </li>
+        </ul>
+      </div>
+      <div id="about-container">
+        <div id="about-img">
+          <img src="https://images.unsplash.com/photo-1545418314-7ce0b9b53901?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNvZmZlZSUyMHNob3B8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Iterior of a coffee shop">
+        </div>
+        <div id="about-text">
+          <div id="about-text-container">
+            <h2>About</h2>
+            <h3>Legacy</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, velit blanditiis eveniet iste officiis libero.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, eveniet!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident voluptatibus tempora nesciunt mollitia quae accusamus, dolorem cum amet odio debitis?</p>
+            <h3>Mission</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quisquam esse blanditiis eius nisi rem officia dolores modi praesentium soluta molestias ipsam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium inventore ex ab unde natus dolore dolorum, necessitatibus ipsa voluptatibus quisquam.</p>
+            <a class="button about-button" href="#contact">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <h3>Earn a free coffee by signing up</h3>
+      <form method="POST" action="#">
+        <fieldset>
+          <legend>Contact Us</legend>
+          <ul>
+            <li>
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" name="first-name" required>
+            </li>
+            <li>
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" name="last-name" required>
+            </li>
+            <li>
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </li>
+            <li>
+              <label for="message">Message</label>
+              <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </li>
+            <li>
+              <label for="newsletter-sign-up">Sign up for newsletter</label>
+              <input type="checkbox" id="newsletter-sign-up" name="newsletter-sign-up">
+            </li>
+            <li>
+              <label for="submit"></label>
+              <input class="button" type="submit" value="Send">
+            </li>
+          </ul>                 
+        </fieldset>
+      </form>
+    </section>
+    
+  </main>
+  
+  <footer>
+    
+  </footer>
   
 <script src="js/script.js"></script>
 </body>
