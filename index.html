@@ -31,8 +31,8 @@
       </div>
       <div id="nav-links-mobile" class="inactive">
         <ul>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#about">About</a></li>
+          <li><a id="about-mobile" href="#about">About</a></li>
+          <li><a id="contact-mobile" href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -90,10 +90,10 @@
     </section>
     
     <section id="contact">
-      <h4>Earn a free coffee by signing up</h4>
+      <h2>Contact Us</h2>
+      <h3>Earn a free coffee by signing up</h3>
       <form method="POST" action="#">
         <fieldset>
-          <legend>Contact Us</legend>
           <ul>
             <li>
               <label for="first-name">First Name</label>
@@ -109,13 +109,13 @@
             </li>
             <li>
               <label for="message">Message</label>
-              <textarea name="message" id="message" cols="10" rows="5"></textarea>
+              <textarea name="message" id="message" cols="30" rows="5"></textarea>
             </li>
             <li id="newsletter">
               <label for="newsletter-sign-up">Sign up for newsletter</label>
               <input type="checkbox" id="newsletter-sign-up" name="newsletter-sign-up">
             </li>
-            <li id="submit-form">
+            <li id="submit-fields">
               <label for="submit"></label>
               <input id="submit" class="submit-button" type="submit" value="Send">
             </li>
